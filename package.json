@@ -17,7 +17,7 @@
     "electron-updater": "^4.3.9"
   },
   "build": {
-    "appId": "com.github.yalp780.electronupdaterexample",
+    "appId": "com.github.yalp780.electronupdaterexample-1",
     "afterSign": "./build/notarize.js",
     "mac": {
       "category": "your.app.category.type"
@@ -35,7 +35,7 @@
     "publish": [{
       "provider": "github",
       "owner": "yalp780",
-      "repo": "electron-updater-example"
+      "repo": "electron-updater-example-1"
     }]
   }
 }
